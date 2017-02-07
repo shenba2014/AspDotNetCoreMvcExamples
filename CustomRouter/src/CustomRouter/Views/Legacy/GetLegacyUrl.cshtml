@@ -1,0 +1,16 @@
+﻿@model string
+@{ Layout = null; }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Routing</title>
+</head>
+<body class="panel-body">
+    <h2>GetLegacyURL</h2>
+This URL: @Model is not available now
+<h2>The following urls are not available</h2>
+<div><a asp-route-legacyurl="/old/mvc3">/old/mvc3</a></div>
+<div><a asp-route-legacyurl="/articles/aspwinform.html">/articles/aspwinform.html</a></div>
+</body>
+</html>
