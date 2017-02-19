@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{76536CCC-AA0C-4949-9206-9FBFC41C1E09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1CAF2B36-F74F-4EAF-B8C2-1DEE13F18991}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UseXunit", "src\UseXunit\UseXunit.xproj", "{351E2AD1-1F48-4A54-A05A-2B1FD60B20C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{32C0D681-9271-403E-AA69-FF4030F76988}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UseXunit.Tests", "UseXunit.Tests\UseXunit.Tests.xproj", "{6D3C145A-4E35-4C74-A385-3DE03BDCA523}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{351E2AD1-1F48-4A54-A05A-2B1FD60B20C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351E2AD1-1F48-4A54-A05A-2B1FD60B20C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351E2AD1-1F48-4A54-A05A-2B1FD60B20C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351E2AD1-1F48-4A54-A05A-2B1FD60B20C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3C145A-4E35-4C74-A385-3DE03BDCA523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3C145A-4E35-4C74-A385-3DE03BDCA523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3C145A-4E35-4C74-A385-3DE03BDCA523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3C145A-4E35-4C74-A385-3DE03BDCA523}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{351E2AD1-1F48-4A54-A05A-2B1FD60B20C3} = {76536CCC-AA0C-4949-9206-9FBFC41C1E09}
+		{6D3C145A-4E35-4C74-A385-3DE03BDCA523} = {32C0D681-9271-403E-AA69-FF4030F76988}
+	EndGlobalSection
+EndGlobal
