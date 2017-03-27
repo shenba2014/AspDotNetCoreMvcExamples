@@ -1,0 +1,9 @@
+﻿@model IEnumerable<City>
+<table class="table table-condensed table-bordered">
+    <tr>
+        <td>Biggest City:</td>
+        <td>
+            @Model.OrderByDescending(c => c.Population).First().Name
+        </td>
+    </tr>
+</table>

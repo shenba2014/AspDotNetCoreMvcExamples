@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cities</title>
+    <link href="/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body class="panel-body">
+    <div class="bg-primary panel-body">
+        <div class="row">
+            <div class="col-xs-7"><h1>Cities</h1></div>
+            <div class="col-xs-5">
+                @await Component.InvokeAsync("CitySummary", new { target = "USA" })
+                @await Component.InvokeAsync("ComboComponent")
+            </div>
+        </div>
+    </div>
+    <div>@RenderBody()</div>
+</body>
+</html>
