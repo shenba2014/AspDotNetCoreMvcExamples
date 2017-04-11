@@ -12,7 +12,7 @@
         @foreach (var city in Model)
         {
             <tr>
-                <td>@city.Name</td>
+                <td wrap>@city.Name</td>
                 <td>@city.Country</td>
                 <td class="text-right">@city.Population?.ToString("#,###")</td>
             </tr>

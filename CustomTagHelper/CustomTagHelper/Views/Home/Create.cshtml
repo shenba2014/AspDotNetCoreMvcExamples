@@ -2,18 +2,23 @@
 @{ Layout = "_Layout"; }
 <form method="post" action="/Home/Create">
     <div class="form-group">
-        <label for="Name">Name:</label>
-        <input class="form-control" name="Name" />
+        <label helper-for="Name" />
+        <input helper-for="Name" />
     </div>
     <div class="form-group">
-        <label for="Country">Country:</label>
-        <input class="form-control" name="Country" />
+        <label helper-for="Country" />
+        <input helper-for="Country" />
     </div>
     <div class="form-group">
-        <label for="Population">Population:</label>
-        <input class="form-control" name="Population" />
+        <label helper-for="Population" />
+        <input helper-for="Population" />
     </div>
-    <button type="submit" bs-button-color="danger">Add</button>
-    <button type="reset" class="btn btn-primary">Reset</button>
-    <a bs-button-color="primary" href="/Home/Index">Cancel</a>
+    @*<formbutton type="submit" bg-color="danger" />
+    <formbutton type="reset" />
+    <a bs-button-color="primary" href="/Home/Index">Cancel</a>*@
+    <div theme="danger">
+        <button type="submit">Add</button>
+        <button type="reset">Reset</button>
+        <a href="/Home/Index">Cancel</a>
+    </div>
 </form>
